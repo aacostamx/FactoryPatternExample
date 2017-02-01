@@ -8,16 +8,24 @@
 namespace FactoryPatternExample
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
-
+    /// <summary>
+    /// Program class
+    /// </summary>
     public class Program
     {
+        /// <summary>
+        /// Main Method
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
+            for (int i = 0; i <= 4; i++)
+            {
+                var position = Factory.Get(i);
+                Console.WriteLine("Where id = {0}, position = {1} ", i, position.Title);
+            }
+
             Console.ReadKey();
         }
     }

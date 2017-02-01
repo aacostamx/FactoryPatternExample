@@ -1,1 +1,6 @@
 c:\users\linko\documents\visual studio 2015\Projects\FactoryPatternExample\FactoryPatternExample\bin\Debug\FactoryPatternExample.exe.config
+C:\Users\Linko\Documents\Visual Studio 2015\Projects\FactoryPatternExample\FactoryPatternExample\bin\Debug\FactoryPatternExample.exe
+C:\Users\Linko\Documents\Visual Studio 2015\Projects\FactoryPatternExample\FactoryPatternExample\bin\Debug\FactoryPatternExample.pdb
+C:\Users\Linko\Documents\Visual Studio 2015\Projects\FactoryPatternExample\FactoryPatternExample\obj\Debug\FactoryPatternExample.csprojResolveAssemblyReference.cache
+C:\Users\Linko\Documents\Visual Studio 2015\Projects\FactoryPatternExample\FactoryPatternExample\obj\Debug\FactoryPatternExample.exe
+C:\Users\Linko\Documents\Visual Studio 2015\Projects\FactoryPatternExample\FactoryPatternExample\obj\Debug\FactoryPatternExample.pdb
