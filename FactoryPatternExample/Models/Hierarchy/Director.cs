@@ -5,6 +5,8 @@
 // </copyright>
 //------------------------------------------------------------------------
 
+using System;
+
 namespace FactoryPatternExample.Models.Hierarchy
 {
     /// <summary>
@@ -13,12 +15,26 @@ namespace FactoryPatternExample.Models.Hierarchy
     /// <seealso cref="FactoryPatternExample.Models.Position" />
     public class Director : Position
     {
-        public override string Title
+        /// <summary>
+        /// Gets the get position.
+        /// </summary>
+        /// <value>
+        /// The get position.
+        /// </value>
+        public string GetTitle
         {
             get
             {
                 return "Director";
             }
+        }
+
+        /// <summary>
+        /// Gets the name.
+        /// </summary>
+        public void GetName()
+        {
+            Console.WriteLine("Name: Gerardo Perez");
         }
     }
 }

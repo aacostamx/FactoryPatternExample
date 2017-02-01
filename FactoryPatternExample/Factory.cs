@@ -16,11 +16,11 @@ namespace FactoryPatternExample
     public static class Factory
     {
         /// <summary>
-        /// Gets the specified identifier.
+        /// Gets the position.
         /// </summary>
         /// <param name="id">The identifier.</param>
         /// <returns></returns>
-        public static Position Get(int id)
+        public static Position GetPosition(int id)
         {
             switch (id)
             {

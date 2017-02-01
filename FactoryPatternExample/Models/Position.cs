@@ -8,16 +8,21 @@
 namespace FactoryPatternExample.Models
 {
     /// <summary>
-    /// Abstract Class Position
+    /// Interface Class Position
     /// </summary>
-    public abstract class Position
+    public interface Position
     {
         /// <summary>
-        /// Gets the title.
+        /// Gets the get position.
         /// </summary>
         /// <value>
-        /// The title.
+        /// The get position.
         /// </value>
-        public abstract string Title { get; }
+        string GetTitle { get; }
+
+        /// <summary>
+        /// Gets the name.
+        /// </summary>
+        void GetName();
     }
 }

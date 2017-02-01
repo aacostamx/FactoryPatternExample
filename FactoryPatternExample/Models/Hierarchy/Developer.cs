@@ -19,12 +19,27 @@ namespace FactoryPatternExample.Models.Hierarchy
     /// <seealso cref="FactoryPatternExample.Models.Position" />
     public class Developer : Position
     {
-        public override string Title
+        /// <summary>
+        /// Gets the get position.
+        /// </summary>
+        /// <value>
+        /// The get position.
+        /// </value>
+        /// <exception cref="NotImplementedException"></exception>
+        public string GetTitle
         {
             get
             {
                 return "Developer";
             }
+        }
+
+        /// <summary>
+        /// Gets the name.
+        /// </summary>
+        public void GetName()
+        {
+            Console.WriteLine("Name: Jose López");
         }
     }
 }

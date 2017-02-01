@@ -5,6 +5,8 @@
 // </copyright>
 //------------------------------------------------------------------------
 
+using System;
+
 namespace FactoryPatternExample.Models
 {
     /// <summary>
@@ -14,17 +16,25 @@ namespace FactoryPatternExample.Models
     public class Leader : Position
     {
         /// <summary>
-        /// Gets the title.
+        /// Gets the get position.
         /// </summary>
         /// <value>
-        /// The title.
+        /// The get position.
         /// </value>
-        public override string Title
+        public string GetTitle
         {
             get
             {
                 return "Leader";
             }
+        }
+
+        /// <summary>
+        /// Gets the name.
+        /// </summary>
+        public void GetName()
+        {
+            Console.WriteLine("Name: Manuel Duran");
         }
     }
 }

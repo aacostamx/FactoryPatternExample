@@ -20,10 +20,12 @@ namespace FactoryPatternExample
         /// <param name="args"></param>
         public static void Main(string[] args)
         {
-            for (int i = 0; i <= 4; i++)
+            for (int i = 0; i <= 3; i++)
             {
-                var position = Factory.Get(i);
-                Console.WriteLine("Where id = {0}, position = {1} ", i, position.Title);
+                var position = Factory.GetPosition(i);
+                position.GetName();
+                Console.WriteLine("Where id = {0}, position = {1} ", i, position.GetTitle);
+                Console.WriteLine();
             }
 
             Console.ReadKey();
