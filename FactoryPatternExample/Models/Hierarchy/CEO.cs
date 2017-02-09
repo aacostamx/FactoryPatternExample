@@ -1,5 +1,5 @@
 ﻿//------------------------------------------------------------------------
-// <copyright file="CEO.cs" company="Volaris">
+// <copyright file="CEO.cs" company="AACOSTA">
 //     Copyright (c) AACOSTA All rights reserved.
 //     Website: http://aacosta.com.mx/
 // </copyright>

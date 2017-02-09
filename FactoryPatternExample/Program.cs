@@ -1,5 +1,5 @@
 ﻿//------------------------------------------------------------------------
-// <copyright file="FactoryPatternExample.cs" company="Volaris">
+// <copyright file="FactoryPatternExample.cs" company="AACOSTA">
 //     Copyright (c) AACOSTA All rights reserved.
 //     Website: http://aacosta.com.mx/
 // </copyright>
